@@ -1,0 +1,254 @@
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap');
+
+html {
+
+    scroll-behavior: auto;
+}
+ body {
+        font-family: 'Merriweather' ;
+        margin: 0;
+        padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    }
+
+li {
+    list-style-type: none;
+}
+h2 {
+   text-transform: uppercase;
+   text-align: center;
+   color: #8A8B7F;
+   padding-top: 30px;
+   font-size: 2em;
+   text-shadow: 1px 3px 2p #54545C ;
+   opacity: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ********************* NAVBAR ******************* */
+
+nav {
+    overflow: hidden;
+   background-color: #E8E7F0;
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+}
+header li {
+   float: right;
+font-size: 1.3em;
+}
+header li a {
+    text-decoration: none;
+    display: black;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    float: left;
+}
+/* ************  IMAGE PRINCIPALE ********* */
+
+#imagePrincipale {
+    padding-top: 60px ;
+    background: url(déco.jpg) no-repeat fixed 50%;
+    background-size: cover;
+    height: 800px;
+}
+h1 {
+     font-family: 'Merriweather';
+     text-align: center;
+    color: #767956 ; 
+    font-size: 6em;
+    margin-top: 120px;
+    text-shadow: -40px -22px 4px rgba(81,109,35,0.26);
+}
+#premierTrait {
+height: 1px;
+width: 25%;
+margin: -3px auto ;
+background-color: black ;
+}
+
+h3 {
+    text-align: center;
+    color:#767956 ;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px grey;
+}
+h4 {
+    text-align: center;
+    color:#767956 ;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px grey;
+}
+/* ***************** PRESENTATION ****************** */
+
+#presentation {
+    background-color: blanchedalmond;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro {
+    padding: opx 20%;
+}
+#collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 15%;
+}
+.imagesCollections h4{
+    font-family: 'Merriweather' ;
+    text-align: center;
+    font-size: 1.8;
+    margin: 15px;
+    font-weight: 200;
+}
+.imagesCollections img {
+    border: 11px solid #767956 ;
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 8px 7px 14px 4px rgba(118,121,86,0.69);
+ }
+ .imagesCollections img:hover {
+     opacity: 0.5;
+     transform: scale(1.05);
+     transition: 0.6s ease-in-out;
+ }
+ /***************** CREATIONS ******************/
+
+ #creations {
+     height: 1400px;
+     background-color: blanchedalmond;
+     padding: 1px 2%;
+ }
+ #creations h2 {
+     padding-top: 60px;
+ }
+#paris {
+    background: url(atelier.jpg) ;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 7px 7px rgba(0,0,0,0.35);
+    border: 1px solid rgba(28,110,164,0.65);
+    border-radius: 28px 0px 28px 0px;
+}
+#salon {
+    background: url(decoration.jpg) ;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 7px 7px rgba(0,0,0,0.35);
+    border: 1px solid rgba(28,110,164,0.65);
+    border-radius: 28px 0px 28px 0px;
+}
+#sûr-mesure {
+    background: url(vetements.jpg) ;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 7px 7px rgba(0,0,0,0.35);
+    border: 1px solid rgba(28,110,164,0.65);
+    border-radius: 28px 0px 28px 0px;
+}
+#boutique {
+    background: url(objets.jpg) ;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 7px 7px rgba(0,0,0,0.35);
+    border: 1px solid rgba(28,110,164,0.65);
+    border-radius: 28px 0px 28px 0px;
+}
+#creations li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0,75);
+}
+#creations p {
+    height: 45px;
+    width: 235px;
+    background-color: #709AEF;
+    float: right;
+    margin: 50px --180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px khaki ;
+}
+#creations #salon, #creations #boutique {
+    float: right;
+}
+#salon p, #boutique p {
+    float: left;
+    background-color: #EFC570;
+    box-shadow: -4px 4px 0 1px khaki;
+}
+/* ********************** FOOTER *********************** */
+
+footer {
+    background-color:  #767956;
+    color: lavender;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Merriweather';
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: lavenderblush;
+}
+button:hover {
+    background-color: #767956 ;
+    color : khaki;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: black;
+    margin: 100px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: lavenderblush;
+    
+}
+#icons {
+    width: 100%;
+    text-align: right;
+
+}
+#icons a {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 1.5em;
+    color: #fffae1;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+}
